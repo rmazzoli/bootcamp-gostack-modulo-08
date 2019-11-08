@@ -6,6 +6,7 @@ function App() {
 
   function handleAdd() {
     setTech([...tech, newTech]);
+    setNewTech('');
   }
 
   return (
